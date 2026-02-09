@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App DBT</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .head{
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg sticky-top head shadow">
+        <div class="container">
+            <a href="index.html"><img src="img/logo.png" width="30%"></a>
+            <ul class="nav">
+                <li class="text-center">
+                    <a href="index.html" class="nav-link text-secondary">หน้าหลัก</a>
+                </li>
+                <li class="text-center">
+                    <a href="menu.html" class="nav-link text-secondary">อาหารไทย</a>
+                </li>
+                <li class="text-center">
+                    <a href="menu2.html" class="nav-link text-secondary">อาหารจีน</a>
+                </li>
+                <li class="text-center">
+                    <a href="menu3.html" class="nav-link text-secondary">อาหารมาเลเซีย</a>
+                </li>
+                <li class="text-center">
+                    <a href="user.html" class="nav-link text-secondary">ผู้จัดทำ</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <button type="button" class="navbar navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+        <!--------แบนเนอร์----------->
+    <div class="container mt-2">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    
+
+    <!------Product-------->
+    <div class="container" id="pro">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/food1.png" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ข้าวผัดหมูสับ</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 55.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/food2.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ผัดไทย</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 70.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ft3.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ข้าวหมก</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 70.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ft4.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>เเกงพะโล้</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 50.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ft5.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ต้มยำกุ้ง</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 80.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ft6.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>เเกงเขียวหวาน</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 70.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/fj6.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>เกี๊ยวนึ่ง</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 55.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/fj1.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ซาลาเปาหมูสับ</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 40.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/fj2.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>หมี่หยกซกหม่ก</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 99.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/fj3.png" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ต้มเเซ่บปลาฉลาม</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 550.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/fj4.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>เกี๊ยวซ่าทอด</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 129.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/fj5.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ชาบูหม้อไฟ</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 255.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+<div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ml1.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>นาซิก ลาเมะ</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 215.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ml2.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>นาวิก ชิคเก้น</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 89.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ml3.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>หมูสเต้ะ</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 99.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ml4.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>สตูวเเกะ</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 550.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ml5.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ข้าวหมกใบตอง</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 129.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| รายการอาหาร</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/ml6.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ข้าวหมกไก่</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 75.00</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Grid container -->
+    
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2025 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">panon22@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+</body>
+</html>
